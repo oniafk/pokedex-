@@ -1,0 +1,19 @@
+{
+  "name": "pokedex-",
+  "version": "1.0.0",
+  "description": "pokedex created with poke API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniafk/pokedex-.git"
+  },
+  "author": "@panda_arias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oniafk/pokedex-/issues"
+  },
+  "homepage": "https://github.com/oniafk/pokedex-#readme"
+}

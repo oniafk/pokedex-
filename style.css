@@ -1,0 +1,60 @@
+:root {
+    --purple: #cb6ce6;
+    --light-purple: #e4bfef;
+    --dark-purple: #c955eb;
+    --white:#FAF9F7;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', silkscreen;
+}
+main{
+    width: 100%;
+    height: auto;    
+    background-color: var(--light-purple);
+}
+
+.podekex-main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poke-list{
+    height: 60vh;
+    width: 40%;
+    display: inline-block;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
+    background-color: var(--purple); 
+    border-radius: 15px;   
+}
+.poke-list::-webkit-scrollbar {
+    display: none;
+  }
+.poke-list .pokemon-file{
+    display: flex;
+    justify-content: space-around;
+}
+.poke-list .file-one{
+    padding-top: 20px;
+}
+.poke-list span{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+    font-size: 2rem;
+}
+.poke-description{
+    width: 40%;
+}
+
